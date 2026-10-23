@@ -21,3 +21,14 @@ if ('IntersectionObserver' in window) {
 navLinks.forEach((link) => {
   link.addEventListener('click', () => setActiveSection(link.getAttribute('href').slice(1)));
 });
+
+let navTimer;
+window.addEventListener('mousemove', (event) => {
+  const nearLeftEdge = event.clientX <= 190;
+  const overNav = event.target.closest('.side-nav');
+  document.body.classList.toggle('nav-visible', nearLeftEdge || Boolean(overNav));
+  clearTimeout(navTimer);
+  if (!nearLeftEdge && !overNav) {
+    navTimer = window.setTimeout(() => document.body.classList.remove('nav-visible'), 250);
+  }
+});
