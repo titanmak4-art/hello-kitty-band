@@ -1,4 +1,4 @@
-# Hello Kitty 26
+# Hello Kitty Bio
 
 Одностраничный сайт-био для IRL Telegram-канала **Hello Kitty**.
 
@@ -39,5 +39,7 @@ python -m http.server 8000
 Проект предназначен для GitHub Pages. Все файлы должны находиться в корне репозитория. В настройках репозитория выберите:
 
 `Settings → Pages → Deploy from branch → main / root`
+
+Сайт: <https://www.hk2324.online/>
 
 Telegram-канал: <https://t.me/hellokittyband2324>
