@@ -20,7 +20,7 @@
 - `styles.css` — стили, адаптивность и анимации;
 - `script.js` — активная навигация при прокрутке;
 - `photo_2026-10-23_18-38-00.png` — основное изображение;
-- `foni-papik-pro-0aaj-p-kartinki-golova-khello-kitti-na-prozrachnom-fone-15.png` — изображение Hello Kitty в финальном блоке.
+- `kitty-head.png` — изображение Hello Kitty в финальном блоке.
 
 ## Локальный запуск
 
